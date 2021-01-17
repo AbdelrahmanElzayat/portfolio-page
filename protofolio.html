@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>front project</title>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="protofolio.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    </head>
+    <body style="background-color: #F5F5F5;">
+<!--*************************************-->
+<!--*************************************-->
+<!--*************************************** start navbar ***********************************************-->
+        <header class="header"> 
+            <div class="overlay"></div>
+
+                 <nav class="navbar navbar-expand-lg navbar-dark fixed-top font-weight-bolder">
+                    <div class="container pt-3 nav">
+            <!--********************************** start logo *************************-->
+                        <a class="navbar-brand" href="#">DevFolio</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+            <!--********************************** start links *************************-->
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav" id="nav-ul">
+                                <li class="nav-item pr-3">
+                                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item pr-3">
+                                    <a class="nav-link" href="#about">ABOUT</a>
+                                </li>
+                                <li class="nav-item pr-3">
+                                    <a class="nav-link" href="#services">SERVICES</a>
+                                </li>
+                                <li class="nav-item pr-3">
+                                    <a class="nav-link" href="#work">WORK</a>
+                                </li>
+                                <li class="nav-item pr-3">
+                                    <a class="nav-link" href="#blog">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact" tabindex="-1">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+            <!--********************************** end links *************************-->
+                    </div>
+                </nav>
+            <!--********************************** start title in header *************************-->
+            <div class="position-relative content-header">
+                <h1 class="text-white text-center display-3 font-weight-bold">I am Morgan Freeman</h1> <br><br>
+                <div class='console-container'><span class="display-4 am">Iam </span><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+            </div>
+            <!--********************************** end title in header *************************-->
+        </header>    
+<!--*************************************** end navbar & header ***********************************************-->
+        
+<!--*************************************-->
+<!--*************************************-->        
+<!--*************************************** start colorBox ***********************************************-->
+        <div class="Box-setting rounded">
+        <!--*************** icon setting ***************************-->
+            <div class="icon-setting rounded">
+                <i class="fas fa-cog iconS"></i>
+            </div>
+        <!--*************** colors ***************************-->
+            <div class="color-Box">
+                <h3 class="text-center mt-2">Choose Your Color</h3>
+                <ul class="list-unstyled d-flex justify-content-center align-item-center py-2 ">
+                    <li data-color="#008080" class="rounded"></li>
+                    <li data-color="#FF6347" class="rounded"></li>
+                    <li data-color="#FFA500" class="rounded"></li>
+                    <li data-color="#008000" class="rounded"></li>
+                    <li data-color="#FF0000" class="rounded"></li>
+                    <li data-color="#007BFF" class="rounded"></li>
+                </ul>
+            </div>
+        </div>
+<!--*************************************** end colorBox ***********************************************-->
+        
+<!--*************************************-->
+<!--*************************************-->
+<!--*************************************** start about ***********************************************-->
+    <div id="about" class="w-100 py-5 about" style="background-color: #F5F5F5;">
+        <div class="container py-5 shadow rounded bg-white">
+            <div class="row d-flex">
+        <!--*************************************** about left side *************************-->
+                <div class="col-lg-5 pl-5">
+                    <div class="row d-flex">
+                        <div class="col-5">
+                            <img src="img/testimonial-2.jpg" class="rounded img-fluid shadow"> 
+                        </div>
+                        <div class="col-7">
+                            <ul class="list-unstyled" id="about-ul">
+                                <li><span class="font-weight-bold">Name:</span> abdelrahman elzayat</li>
+                                <li><span class="font-weight-bold">profile:</span> full stack developer</li>
+                                <li><span class="font-weight-bold">Email:</span> abdo530@hotmail.com</li>
+                                <li><span class="font-weight-bold">Phone:</span> +201090746599</li>
+                            </ul>
+                        </div>
+                    </div>
+                <!--*********************** start progress bar ***************************************-->
+                    <div class="skills py-3 ">
+                        <h4>skills</h4>
+                            <h5>HTML5</h5>
+                                <div class="progress">
+                                    <span class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" data-progress="90%">90%</span>
+                                </div>
+                            <h5>CSS3</h5>
+                                <div class="progress">
+                                    <span class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-progress="80%">80%</span>
+                                </div>
+                            <h5>JAVASCRIPT</h5>
+                                <div class="progress">
+                                    <span class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" data-progress="75%">75%</span>
+                                </div>
+                            <h5>PHP</h5>
+                                <div class="progress">
+                                    <span class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" data-progress="50%">50%</span>
+                                </div>
+                    </div>
+            <!--******************* end progress bar *************************************-->
+                </div>
+        <!--*************************************** end about left side **************************-->
+        <!--******************************** start about right side ********************************-->
+                <div class="col-lg-7">
+                    <h1 class="font-weight-bold position-relative offset-1" id="about-title">About me</h1>
+                    <p class="lead mt-4 offset-1">
+                        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.<br> Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.<br> Praesent sapien massa, convallis a pellentesque nec, egestas<br> non nisi. Nulla porttitor accumsan tincidunt. Mauris blandit<br> aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor<br> eget felis porttitor volutpat. Vestibulum ac diam sit amet quam<br> vehicula elementum sed sit amet dui. porttitor at sem. Nulla<br> porttitor accumsan tincidunt. Quisque velit nisi, pretium ut<br> lacinia in, elementum id enim. Nulla porttitor accumsan<br> tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    </p>
+                </div>
+        <!--*************************************** end about right side *****************************-->
+
+            </div>
+        </div>   
+    </div>
+<!--*************************************** end about ***********************************************-->
+        
+<!--*************************************-->
+<!--*************************************-->
+<!--******************************************** Start services ********************************************-->
+    <div id="services" class="services text-center" style="background-color: #F5F5F5;">
+        
+        <!--************************** services logo *************-->
+        <div class="services1 text-center py-5 d-flex align-item-center justify-content-center position-relative" style="background-color: #F5F5F5;">
+            <h1 class="text-center position-absolute">services</h1>
+            <h5 class="text-center position-absolute">services</h5>
+        </div>
+        <p class="servicesp text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<!--        ************************************ container of services ************************-->
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="ser-content shadow rounded py-4 bg-light">
+                        <div class="icon">
+                            <i class="fas fa-desktop py-3"></i>
+                        </div>
+                            <h4 class="py-3">WEB DESIGN</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                 <div class="ser-content shadow rounded py-4 bg-light">
+                        <div class="icon">
+                            <i class="fas fa-code py-3"></i>
+                            <h4 class="py-3">WEB DEVELOPMENT</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="ser-content shadow rounded py-4 bg-light">
+                        <div class="icon">
+                            <i class="fas fa-camera-retro py-3"></i>
+                            <h4 class="py-3">PHOTOGRAPHY</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="ser-content shadow rounded py-4 bg-light">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt py-3"></i>
+                            <h4 class="py-3">RESPONSIVE DESIGN</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="ser-content shadow rounded py-4 bg-light">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush py-3"></i>
+                            <h4 class="py-3">GRAPHIC DESIGN</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="ser-content shadow rounded py-4 bg-light">
+                        <div class="icon">
+                            <i class="far fa-chart-bar py-3"></i>
+                            <h4 class="py-3">MARKETING SERVICES</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+<!--**************************************** end services ********************************************************-->
+        
+<!--*************************************-->
+<!--*************************************-->
+<!--**************************************** background section **************-->
+        <div class="pic container-fluid py-5 my-5">
+            <div class="overLay"></div>
+        </div>
+<!--**************************************** end background section **************-->
+
+<!--*************************************-->
+<!--*************************************-->
+<!--**************************************** start Portofilo **************-->
+     <div class="services text-center" id="work" style="background-color: #F5F5F5;">
+         
+         <!--*********************************** portfolio logo ******************-->
+        <div class="services1 text-center py-5 d-flex align-item-center justify-content-center position-relative" style="background-color: #F5F5F5;">
+            <h1 class="text-center position-absolute">Portofilo</h1>
+            <h5 class="text-center position-absolute">Portofilo</h5>
+        </div>
+         <p class="servicesp text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <!--************************* container of services ****************-->
+        <div class="container Portofilo2">
+            <div class="row">
+        <!--*******************************first 3 CARDS *******************************-->
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="card1 card shadow rounded">
+                        <div class="cImg">
+                        <img src="img/work-1.jpg" class="card-img-top" alt="..."></div>
+                        <div class="card-body">
+                          <h5 class="card-title">Bindo Laro Cado</h5>
+                          <p class="card-text"><small class="text-primary">Web Design / <span class="text-muted">18 Sep. 2018</span></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="card1 card shadow rounded">
+                        <div class="cImg">
+                            <img src="img/work-2.jpg" class="card-img-top" alt="..."></div>
+                        <div class="card-body">
+                          <h5 class="card-title">Loreda Cuno Nere</h5>
+                           <p class="card-text"><small class="text-primary">Web Design / <span class="text-muted">18 Sep. 2018</span></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="card1 card shadow rounded">
+                        <div class="cImg">
+                            <img src="img/work-3.jpg" class="card-img-top" alt="..."></div>
+                        <div class="card-body">
+                          <h5 class="card-title">Mavrito Lana Dere</h5>
+                           <p class="card-text"><small class="text-primary">Web Design / <span class="text-muted">18 Sep. 2018</span></small></p>
+                        </div>
+                      </div>
+                </div>
+                
+            <!--******************************* seconed 3 CARDS *****************************-->
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="card1 card shadow rounded">
+                        <div class="cImg">
+                            <img src="img/work-4.jpg" class="card-img-top" alt="..."></div>
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem impsum dolor</h5>
+                           <p class="card-text"><small class="text-primary">Web Design / <span class="text-muted">18 Sep. 2018</span></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="card1 card shadow rounded">
+                        <div class="cImg">
+                            <img src="img/work-5.jpg" class="card-img-top" alt="..."></div>
+                        <div class="card-body">
+                          <h5 class="card-title">Bindo Laro Cado</h5>
+                           <p class="card-text"><small class="text-primary">Web Design / <span class="text-muted">18 Sep. 2018</span></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5">
+                    <div class="card1 card shadow rounded">
+                        <div class="cImg">
+                            <img src="img/work-6.jpg" class="card-img-top" alt="..."></div>
+                        <div class="card-body">
+                          <h5 class="card-title">Studio Lena Mado</h5>
+                           <p class="card-text"><small class="text-primary">Web Design / <span class="text-muted">18 Sep. 2018</span></small></p>
+                        </div>
+                      </div>
+                </div>
+            <!-- ***********************END SECOND 3 CARDS ******************************-->
+            </div>
+        </div>
+<!--**************************************** end Portofilo ************************************************-->
+
+<!--*************************************-->
+<!--*************************************-->
+<!--**************************************** background2 with text ******************************-->
+        <div class="pic2 my-5 d-flex justify-content-center align-item-center">
+            <div class="overLay"></div>
+            <div class="content container py-5 px-5">
+            <div class="d-flex justify-content-center align-item-center position-relative">
+                <img src="img/testimonial-2.jpg" class="testi">
+            </div>
+            <div class="text-center position-relative">
+                <h2 class="text-center text-white font-weight-bold pt-4">
+                    ABDO ELZAYAT
+                </h2>
+                <P class="text-center text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, molestiae?
+                </P>
+                <div class="d-flex justify-content-center align-item-center icon">
+                    <i class="fas fa-quote-right py-3 icon2"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+<!--**************************************** end background2 with text **************************-->
+        
+<!--*************************************-->
+<!--*************************************-->
+<!--**************************************** start Blog ****************************-->
+     <div id="blog" class="services text-center" id="work" style="background-color: #F5F5F5;">
+         
+         <!--******************************** logo ********************-->
+        <div class="services1 text-center py-5 d-flex align-item-center justify-content-center position-relative" style="background-color: #F5F5F5;">
+            <h1 class="text-center position-absolute">Blog</h1>
+            <h5 class="text-center position-absolute">Blog</h5>
+        </div>
+         <p class="servicesp text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <!--********************************* container of blog ******************-->
+    <div class="container Portofilo2">
+        <div class="row card-deck my-5">
+            <div class="card col-sm-12 col-md-12 col-lg-4 py-5">
+                <img src="img/portfolio-details-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer fot">
+                    <small class="text-muted p-1">
+                        <img src="img/testimonial-2.jpg" class="img- rounded-circle mx-2">
+                        <a href="#">abdo elzayat</a>
+                        <i class="far fa-clock"> 10 min</i>
+                        
+                    </small>
+                </div>
+            </div>
+            <div class="card col-sm-12 col-md-12 col-lg-4 py-5">
+                <img src="img/portfolio-details-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer fot">
+                    <small class="text-muted p-1">
+                        <img src="img/testimonial-2.jpg" class="img- rounded-circle mx-2">
+                        <a href="#">ammar ashraf</a>
+                        <i class="far fa-clock"> 10 min</i>
+                        
+                    </small>
+                </div>
+            </div>
+             <div class="card col-sm-12 col-md-12 col-lg-4 py-5">
+                <img src="img/portfolio-details-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer fot">
+                    <small class="text-muted p-1">
+                        <img src="img/testimonial-2.jpg" class="img- rounded-circle mx-2">
+                        <a href="#">omar adly</a>
+                        <i class="far fa-clock"> 10 min</i>
+                        
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--**************************************** end Blog *****************************************************-->
+        
+<!--*************************************-->
+<!--*************************************-->
+<!--**************************************** start form contact us****************************-->
+        <div id="contact" class="pic2 pic3 py-5 d-flex align-items-center justify-content-center">
+            <div class="overLay"></div>
+           
+            <div class="container py-5 px-5 rounded bg-white contact">
+                <div class="row">
+                    
+                <!--********************** start left side *********************-->
+                    <div class="col-lg-6">
+                        <h1 id="send-title" class="position-relative mb-5">Send Message Us</h1>
+                         <div class="form-group">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                        </div>
+                         <div class="form-group">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="subject">
+                        </div>
+                         <div class="form-group">
+                        <textarea type="text" cols="70" placeholder="message" class="form-control"></textarea>
+                        </div>
+                        <div class="btn d-flex justify-content-center">
+                            <button class="btn btn-primary rounded-pill" type="submit">Send Message</button>
+                        </div> 
+                    </div>
+                <!--************************** end left side *********************-->
+                <!--**************************** start right side *********************-->
+                    <div class="col-lg-6">
+                        <h1 id="send-title" class="position-relative mb-5">Get in Touch</h1>
+                        <p id="parf">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Facilis dolorum dolorem soluta quidem expedita aperiam<br> aliquid at. Totam magni ipsum suscipit amet? Autem nemo<br> esse laboriosam ratione nobis mollitia inventore?
+                        </p>
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker"></i>
+                            <span>329 WASHINGTON ST BOSTON, MA 02108</span>
+                        </div>
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                            <span>(617) 557-00898</span>
+                        </div>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@example.com</span>
+                        </div>
+                        <div class="icons-social d-flex ">
+                            <i class="fab fa-facebook d-flex justify-content-center align-items-center"></i>
+                            <i class="fab fa-instagram d-flex justify-content-center align-items-center"></i>
+                            <i class="fab fa-twitter d-flex justify-content-center align-items-center"></i>
+                            <i class="fab fa-pinterest-p d-flex justify-content-center align-items-center"></i>
+                        </div>
+                    </div>
+                <!--**************************** end right side *****************-->
+                </div>
+            </div>
+        </div>
+<!--**********************************end form contact us************************************-->
+
+<!--*************************************-->
+<!--*************************************-->
+        <!-- Back to top button -->
+            <a id="button"></a>
+        <!-- Back to top button --> 
+        
+<!--*************************************-->
+<!--*************************************-->
+<!--**************************************** links jquery&bootstrap **************-->
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="protofolio.js"></script>
+<!--*************************************-->
+<!--*************************************-->
+    </body>
+</html>
